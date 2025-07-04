@@ -1,15 +1,4 @@
-<h2>TensorFlow-FlexUNet-Image-Segmentation-KiTS19-Kidney-Tumor (2025/07/04)</h2>
-This is the first experiment of Image Segmentation for Kidney-Tumor (Benign and Malignant) 
- based on 
-our <a href="./src/TensorFlowFlexUNet.py">TensorFlowFlexUNet</a>
- (<b>TensorFlow Flexible UNet Image Segmentation Model for Multiclass</b>) and a 512x512 pixels 
-  <a href="https://drive.google.com/file/d/1CEPS71AZJtyOXgk-ZksT5b4JXOis8DyW/view?usp=sharing">
-Kits19-Kidney-Tumor-ImageMask-Dataset.zip</a>, which was derived by us from the 
-<a href="https://www.kaggle.com/datasets/user123454321/kits19-2">
-Kits19-2</a>
-<br><br>
-<hr>
-<b>Actual Image Segmentation for 512x512 Kidney-Tumor images</b><br>
+Umage Segmentation for 512x512 Kidney-Tumor images</b><br>
 As shown below, the inferred masks look very similar to the ground truth masks. 
 The blue region represents a kidney, and the red a tumor respectively.<br><br>
 <table>
@@ -246,7 +235,7 @@ python ../../../src/TensorFlowFlexUNetEvaluator.py ./train_eval_infer_aug.config
 
 Evaluation console output:<br>
 <img src="./projects/TensorFlowFlexUNet/Kidney-Tumor/asset/evaluate_console_output_at_epoch65.png" width="920" height="auto">
-<br><br>Image-Segmentation-BUSBRA
+<br><br>
 
 <a href="./projects/TensorFlowFlexUNet/Kidney-Tumor/evaluation.csv">evaluation.csv</a><br>
 The loss (categorical_crossentropy) to this Kidney-Tumor/test was very low and dice_coef_multiclass 
