@@ -1,6 +1,6 @@
 <h2>TensorFlow-FlexUNet-Image-Segmentation-KiTS19-Kidney-Tumor (2025/07/04)</h2>
 
-This is the first experiment of Image Segmentation for Kidney-Tumor (Benign and Malignant) based on our TensorFlowFlexUNet (TensorFlow Flexible UNet Image Segmentation Model for Multiclass) and a 512x512 pixels 
+This is the first experiment of Image Segmentation for Kidney-Tumor based on our TensorFlowFlexUNet (TensorFlow Flexible UNet Image Segmentation Model for Multiclass) and a 512x512 pixels 
 <a href="https://drive.google.com/file/d/1CEPS71AZJtyOXgk-ZksT5b4JXOis8DyW/view?usp=sharing">
 Kits19-Kidney-Tumor-ImageMask-Dataset.zip</a>.
 which was derived by us from <br>
